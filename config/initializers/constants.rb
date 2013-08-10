@@ -1,0 +1,7 @@
+# For twitter 
+TW_CONSUMER_KEY = ''
+TW_CONSUMER_SECRET = ''
+TW_OAUTH_TOKEN = ''
+TW_OAUTH_TOKEN_SECRET = ''
+
+

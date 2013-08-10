@@ -49,3 +49,5 @@ group :development, :test do
   gem 'terminal-notifier-guard' if RUBY_PLATFORM =~ /darwin/i
 end
 
+gem 'twitter'
+

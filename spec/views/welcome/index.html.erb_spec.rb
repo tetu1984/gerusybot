@@ -1,5 +1,10 @@
 require 'spec_helper'
 
 describe "welcome/index.html.erb" do
-  pending "add some examples to (or delete) #{__FILE__}"
+  before do
+    render
+  end
+  it "display a message" do
+    expect(rendered).to include('Coffee please.')
+  end
 end
