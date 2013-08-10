@@ -43,5 +43,9 @@ gem 'jquery-rails'
 
 group :development, :test do
   gem 'rspec-rails'
+
+  gem 'guard-rspec'
+  gem 'guard-livereload'
+  gem 'terminal-notifier-guard' if RUBY_PLATFORM =~ /darwin/i
 end
 
