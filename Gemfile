@@ -50,4 +50,5 @@ group :development, :test do
 end
 
 gem 'twitter'
+gem 'newrelic_rpm'
 
