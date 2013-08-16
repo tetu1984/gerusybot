@@ -1,0 +1,11 @@
+ilanguage: ruby
+rvm:
+  - 1.9.3
+bundler_args: "--without development"
+before_install:
+  - gem install bundler --pre
+before_script:
+  - "cp config/database.example.yml config/database.yml"
+  - RAILS_ENV=test bundle exec rake db:create db:migrate
+script: true
+
