@@ -51,4 +51,5 @@ end
 
 gem 'twitter'
 gem 'newrelic_rpm'
+gem "coveralls", require: false
 
